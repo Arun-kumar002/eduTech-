@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>compiler</title>
+    <link rel="stylesheet" href="../../css/compiler.css">
+</head>
+<body>
+    <section>
+        <article>
+            <h1>Test Yentra Online Compiler</h1>
+            <form id="myform" name="myform" method="post" action="compilecode">
+                <aside class="language">
+                  <label for="lang">Language</label> : <select name="lang" id="lang">
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="Java">Java</option>
+                    <option value="Python">Python</option> 
+                    </select>
+                </aside>
+                <h3>Write Your Code Below</h3>
+                <textarea rows="15" cols="100" id="code" name="code" ></textarea> 
+                <br/>
+                <h3>Input</h3>
+                <textarea rows="5" cols="100" id="input" name="input" ></textarea> 
+                <br/>
+                <input type="submit" value="Run"  name="submit" />
+            </form>
+        </article>
+    </section>
+</body>
+</html>
